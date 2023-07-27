@@ -1,3 +1,9 @@
+Updated project that add command line arguments to support multiple input files and removing output files
+-i specify an array of input files
+-o optionally specify an output folder for wavs
+-j optionally specify and output folder for json
+-e empty the json and wav output folders
+
 # AudioSlicer
 
 A simple Audio Slicer in Python which can split .wav audio files into multiple .wav samples, based on silence detection. Also, it dumps a .json that contains the periods of time in which the slice occours, in the following format: 
